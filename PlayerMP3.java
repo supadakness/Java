@@ -28,8 +28,10 @@ public class Main {
 				break;
 				case("R"): clip.setMicrosecondPosition(0);
 				break;
+				case("Q"):clip.close();
 				default: System.out.println("Not a valid response");
 			}
 		}
+		System.out.println("Quit");
 	}
 }
